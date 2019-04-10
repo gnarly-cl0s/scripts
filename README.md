@@ -1,0 +1,2 @@
+# scripts
+automate simple tasks
