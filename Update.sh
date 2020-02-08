@@ -1,7 +1,7 @@
 #!/bin/bash
 # if not root, run as root
 if (( $EUID != 0 )); then
-    sudo $HOME/git/scripts/Update.sh
+    sudo $HOME/git-projects/scripts/Update.sh
     exit
 fi
 apt-get update
