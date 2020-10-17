@@ -2,7 +2,7 @@
 
 #if not root, run as root
 if (( $EUID != 0 )); then
-        sudo $HOME/git-projects/scripts/up.sh
+        sudo $HOME/git/scripts/up.sh
         exit
 fi
 
